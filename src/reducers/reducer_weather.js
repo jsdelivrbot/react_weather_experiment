@@ -8,6 +8,7 @@ export default function(state = [], action) {
 		// better to use concat than push
 		// ppush change instance of state
 		// concat add only
+		// is better to not manipulate state
 		return state.concat([action.payload.data]);
 	} 
 
